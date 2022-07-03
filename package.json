@@ -1,0 +1,23 @@
+{
+  "name": "newportfolio",
+  "version": "1.0.0",
+  "description": "Main portfolio for my projects, stack and others",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d newPortfolio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juannjo/main-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juannjo/main-portfolio/issues"
+  },
+  "homepage": "https://github.com/juannjo/main-portfolio#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
