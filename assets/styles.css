@@ -1,7 +1,7 @@
 
 :root {
     --main-purple: #7510f7;
-    --white: #fff;
+    --white: #d3d3d3;
     --main-blue: #141c3a;
 }
 * {
@@ -44,7 +44,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 0.5rem;
     width: 100%;
     height: 60rem;
     text-align: center;
@@ -102,8 +101,33 @@ header {
 /* Stack section */
 .stack-section {
     height: 50rem;
+    display: flex;
+    align-items: center;
+    background-color:var(--white) ;
+    flex-direction: column;
 }
- 
+.stack-section h2 {
+    font-size: 4rem;
+    font-family: inherit;
+    font-weight: 400;
+    color: var(--main-blue);
+    margin-bottom: 3rem;
+}
+.stack-display {
+    display:flex;
+    justify-items: center;
+    height: 416px;
+    width: max;
+}
+.stack-cont {
+    width: fit-content;
+    height: fit-content;
+}
+.stack-cont img{
+    width: 150px;
+    height: 150px;
+}
+
 /* Project-section  */
 .project-section {
     padding: 3rem;
